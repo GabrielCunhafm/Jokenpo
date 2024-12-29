@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jokenpô com Imagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Jokenpô - Pedra, Papel ou Tesoura</h1>
+    <div class="choices">
+      <div class="choice" data-choice="pedra">
+        <img src="images/imagespedra.png.jpeg" alt="Pedra">
+        <p>Pedra</p>
+      </div>
+      <div class="choice" data-choice="papel">
+        <img src="images/imagespapel.png.jpeg" alt="Papel">
+        <p>Papel</p>
+      </div>
+      <div class="choice" data-choice="tesoura">
+        <img src="images/imagestesoura.png.jpeg" alt="Tesoura">
+        <p>Tesoura</p>
+      </div>
+    </div>
+    <div class="result">
+      <p id="result-text">Escolha uma opção para jogar!</p>
+      <div class="computer-choice">
+        <p>Escolha do computador:</p>
+        <img id="computer-choice-img" src="images/imagespedra.png.jpeg"  alt="Escolha do computador">
+      </div>
+    </div>
+    <button id="reset-btn">Reiniciar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
